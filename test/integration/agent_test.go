@@ -19,9 +19,9 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 	"github.com/stretchr/testify/require"
 
-	"github.com/jamespolk/go-log-aggregator/internal/agent"
-	"github.com/jamespolk/go-log-aggregator/internal/ingest"
-	"github.com/jamespolk/go-log-aggregator/internal/model"
+	"github.com/jamespolk/sawmill/internal/agent"
+	"github.com/jamespolk/sawmill/internal/ingest"
+	"github.com/jamespolk/sawmill/internal/model"
 )
 
 // Tuning shared by every test in this file. Kept in one place so a change to

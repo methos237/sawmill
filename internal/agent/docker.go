@@ -14,7 +14,7 @@ import (
 	"github.com/moby/moby/api/pkg/stdcopy"
 	"github.com/moby/moby/client"
 
-	"github.com/jamespolk/go-log-aggregator/internal/backoff"
+	"github.com/jamespolk/sawmill/internal/backoff"
 )
 
 // DockerStream selects which of a container's output streams a source

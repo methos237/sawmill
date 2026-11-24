@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jamespolk/go-log-aggregator/internal/model"
+	"github.com/jamespolk/sawmill/internal/model"
 )
 
 // mustJoiner builds a Joiner or fails the test immediately.

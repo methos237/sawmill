@@ -11,7 +11,7 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 	"github.com/stretchr/testify/require"
 
-	"github.com/jamespolk/go-log-aggregator/internal/model"
+	"github.com/jamespolk/sawmill/internal/model"
 )
 
 // Direct-SQL helpers. Tests that are about the schema use these instead of the

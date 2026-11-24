@@ -32,8 +32,8 @@ import (
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/modules/postgres"
 
-	"github.com/jamespolk/go-log-aggregator/internal/config"
-	"github.com/jamespolk/go-log-aggregator/internal/storage"
+	"github.com/jamespolk/sawmill/internal/config"
+	"github.com/jamespolk/sawmill/internal/storage"
 )
 
 // timescaleImage is pinned by digest to the same image deploy/docker-compose.yml

@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jamespolk/go-log-aggregator/internal/config"
-	"github.com/jamespolk/go-log-aggregator/internal/model"
+	"github.com/jamespolk/sawmill/internal/config"
+	"github.com/jamespolk/sawmill/internal/model"
 )
 
 // startNode binds a memberlist on an OS-assigned loopback port and returns the

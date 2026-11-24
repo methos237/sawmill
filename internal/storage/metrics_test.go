@@ -6,7 +6,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/jamespolk/go-log-aggregator/internal/observability"
+	"github.com/jamespolk/sawmill/internal/observability"
 )
 
 func TestNewMetricsRegistersEverything(t *testing.T) {

@@ -13,8 +13,8 @@ import (
 	"github.com/nats-io/nats.go/jetstream"
 	"go.opentelemetry.io/otel"
 
-	"github.com/jamespolk/go-log-aggregator/internal/config"
-	"github.com/jamespolk/go-log-aggregator/internal/observability"
+	"github.com/jamespolk/sawmill/internal/config"
+	"github.com/jamespolk/sawmill/internal/observability"
 )
 
 // Publish failure kinds. Publish wraps one of these alongside the underlying

@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jamespolk/go-log-aggregator/internal/model"
-	"github.com/jamespolk/go-log-aggregator/internal/query"
-	"github.com/jamespolk/go-log-aggregator/internal/query/executor"
+	"github.com/jamespolk/sawmill/internal/model"
+	"github.com/jamespolk/sawmill/internal/query"
+	"github.com/jamespolk/sawmill/internal/query/executor"
 )
 
 var t0 = time.Date(2026, 9, 1, 0, 0, 0, 0, time.UTC)

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/jamespolk/go-log-aggregator/internal/config"
+	"github.com/jamespolk/sawmill/internal/config"
 )
 
 func testLogger() *slog.Logger {

@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jamespolk/go-log-aggregator/internal/config"
+	"github.com/jamespolk/sawmill/internal/config"
 )
 
 type middleware func(http.Handler) http.Handler

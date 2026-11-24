@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/jamespolk/go-log-aggregator/internal/model"
+	"github.com/jamespolk/sawmill/internal/model"
 )
 
 // Evaluator evaluates a parsed query against records in memory, predicate for

@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	logaggv1 "github.com/jamespolk/go-log-aggregator/api/proto/logagg/v1"
-	"github.com/jamespolk/go-log-aggregator/internal/model"
+	logaggv1 "github.com/jamespolk/sawmill/api/proto/logagg/v1"
+	"github.com/jamespolk/sawmill/internal/model"
 )
 
 func testOptions() options {

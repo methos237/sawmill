@@ -16,13 +16,13 @@ import (
 	"github.com/prometheus/client_golang/prometheus/testutil"
 	"google.golang.org/protobuf/proto"
 
-	logaggv1 "github.com/jamespolk/go-log-aggregator/api/proto/logagg/v1"
-	"github.com/jamespolk/go-log-aggregator/internal/config"
-	"github.com/jamespolk/go-log-aggregator/internal/model"
-	"github.com/jamespolk/go-log-aggregator/internal/observability"
-	"github.com/jamespolk/go-log-aggregator/internal/queue"
-	"github.com/jamespolk/go-log-aggregator/internal/queue/queuetest"
-	"github.com/jamespolk/go-log-aggregator/internal/tail"
+	logaggv1 "github.com/jamespolk/sawmill/api/proto/logagg/v1"
+	"github.com/jamespolk/sawmill/internal/config"
+	"github.com/jamespolk/sawmill/internal/model"
+	"github.com/jamespolk/sawmill/internal/observability"
+	"github.com/jamespolk/sawmill/internal/queue"
+	"github.com/jamespolk/sawmill/internal/queue/queuetest"
+	"github.com/jamespolk/sawmill/internal/tail"
 )
 
 const tailPing = 50 * time.Millisecond

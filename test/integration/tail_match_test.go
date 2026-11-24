@@ -10,9 +10,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/jamespolk/go-log-aggregator/internal/model"
-	"github.com/jamespolk/go-log-aggregator/internal/query"
-	"github.com/jamespolk/go-log-aggregator/internal/query/executor"
+	"github.com/jamespolk/sawmill/internal/model"
+	"github.com/jamespolk/sawmill/internal/query"
+	"github.com/jamespolk/sawmill/internal/query/executor"
 )
 
 // The live-tail evaluator and the planner must agree on every record: a line

@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jamespolk/go-log-aggregator/internal/config"
+	"github.com/jamespolk/sawmill/internal/config"
 )
 
 func TestNewLoggerJSONCarriesNodeAndVersion(t *testing.T) {

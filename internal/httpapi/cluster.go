@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/jamespolk/go-log-aggregator/internal/cluster"
+	"github.com/jamespolk/sawmill/internal/cluster"
 )
 
 // ClusterView is what /v1/cluster reads. *cluster.Cluster satisfies it; nil

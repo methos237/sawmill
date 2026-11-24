@@ -10,7 +10,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
-	"github.com/jamespolk/go-log-aggregator/internal/storage"
+	"github.com/jamespolk/sawmill/internal/storage"
 )
 
 // The point of this file: a migration returning no error proves only that Postgres

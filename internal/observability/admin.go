@@ -11,7 +11,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"github.com/jamespolk/go-log-aggregator/internal/config"
+	"github.com/jamespolk/sawmill/internal/config"
 )
 
 // AdminServer serves metrics and profiling on the internal port.

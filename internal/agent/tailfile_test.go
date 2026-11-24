@@ -13,7 +13,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	dto "github.com/prometheus/client_model/go"
 
-	"github.com/jamespolk/go-log-aggregator/internal/observability"
+	"github.com/jamespolk/sawmill/internal/observability"
 )
 
 // counterValue reads a counter's current value directly through the

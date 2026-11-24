@@ -16,12 +16,12 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/status"
 
-	logaggv1 "github.com/jamespolk/go-log-aggregator/api/proto/logagg/v1"
-	"github.com/jamespolk/go-log-aggregator/internal/config"
-	"github.com/jamespolk/go-log-aggregator/internal/model"
-	"github.com/jamespolk/go-log-aggregator/internal/query"
-	"github.com/jamespolk/go-log-aggregator/internal/query/executor"
-	"github.com/jamespolk/go-log-aggregator/internal/tlsx"
+	logaggv1 "github.com/jamespolk/sawmill/api/proto/logagg/v1"
+	"github.com/jamespolk/sawmill/internal/config"
+	"github.com/jamespolk/sawmill/internal/model"
+	"github.com/jamespolk/sawmill/internal/query"
+	"github.com/jamespolk/sawmill/internal/query/executor"
+	"github.com/jamespolk/sawmill/internal/tlsx"
 )
 
 // The peer service is how a coordinator has another collector answer one

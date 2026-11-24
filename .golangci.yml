@@ -95,4 +95,4 @@ formatters:
   settings:
     goimports:
       local-prefixes:
-        - github.com/jamespolk/go-log-aggregator
+        - github.com/jamespolk/sawmill

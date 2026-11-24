@@ -3,7 +3,7 @@ package query
 import (
 	"testing"
 
-	"github.com/jamespolk/go-log-aggregator/internal/model"
+	"github.com/jamespolk/sawmill/internal/model"
 )
 
 func TestEvaluator(t *testing.T) {

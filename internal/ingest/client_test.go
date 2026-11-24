@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	logaggv1 "github.com/jamespolk/go-log-aggregator/api/proto/logagg/v1"
-	"github.com/jamespolk/go-log-aggregator/internal/queue/queuetest"
+	logaggv1 "github.com/jamespolk/sawmill/api/proto/logagg/v1"
+	"github.com/jamespolk/sawmill/internal/queue/queuetest"
 )
 
 // The client is what loadgen, logctl and the phase 3 agent all use, so the round

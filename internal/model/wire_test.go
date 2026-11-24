@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	logaggv1 "github.com/jamespolk/go-log-aggregator/api/proto/logagg/v1"
+	logaggv1 "github.com/jamespolk/sawmill/api/proto/logagg/v1"
 )
 
 func TestLabelSetProtoRoundTrip(t *testing.T) {

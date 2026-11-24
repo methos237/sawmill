@@ -4,8 +4,8 @@ import (
 	"io"
 	"log/slog"
 
-	"github.com/jamespolk/go-log-aggregator/internal/config"
-	"github.com/jamespolk/go-log-aggregator/internal/version"
+	"github.com/jamespolk/sawmill/internal/config"
+	"github.com/jamespolk/sawmill/internal/version"
 )
 
 // NewLogger builds the process logger. Every line carries the node name and

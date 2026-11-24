@@ -4,7 +4,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
-	"github.com/jamespolk/go-log-aggregator/internal/observability"
+	"github.com/jamespolk/sawmill/internal/observability"
 )
 
 // queueSubsystem prefixes metrics specific to this package.

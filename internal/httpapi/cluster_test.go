@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jamespolk/go-log-aggregator/internal/cluster"
-	"github.com/jamespolk/go-log-aggregator/internal/config"
-	"github.com/jamespolk/go-log-aggregator/internal/observability"
+	"github.com/jamespolk/sawmill/internal/cluster"
+	"github.com/jamespolk/sawmill/internal/config"
+	"github.com/jamespolk/sawmill/internal/observability"
 )
 
 // fakeCluster is a static three-member view; the ring is real.

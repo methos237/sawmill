@@ -9,9 +9,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/jamespolk/go-log-aggregator/internal/model"
-	"github.com/jamespolk/go-log-aggregator/internal/query"
-	"github.com/jamespolk/go-log-aggregator/internal/query/executor"
+	"github.com/jamespolk/sawmill/internal/model"
+	"github.com/jamespolk/sawmill/internal/query"
+	"github.com/jamespolk/sawmill/internal/query/executor"
 )
 
 // Request-side caps. The body cap bounds the JSON decode; the query cap bounds

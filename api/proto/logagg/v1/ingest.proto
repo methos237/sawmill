@@ -13,7 +13,7 @@ syntax = "proto3";
 
 package logagg.v1;
 
-option go_package = "github.com/jamespolk/go-log-aggregator/api/proto/logagg/v1;logaggv1";
+option go_package = "github.com/jamespolk/sawmill/api/proto/logagg/v1;logaggv1";
 
 // Level is the severity of a record. Values are stable: they are persisted as
 // integers in the logs table, so they may be appended to but never renumbered.

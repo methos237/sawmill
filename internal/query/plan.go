@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jamespolk/go-log-aggregator/internal/model"
+	"github.com/jamespolk/sawmill/internal/model"
 )
 
 // This file is the SQL-injection surface of the project, so it follows two

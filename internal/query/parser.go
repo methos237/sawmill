@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jamespolk/go-log-aggregator/internal/model"
+	"github.com/jamespolk/sawmill/internal/model"
 )
 
 // MaxRegexLen bounds any regular expression literal (matcher, line filter,

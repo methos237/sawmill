@@ -13,7 +13,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/jamespolk/go-log-aggregator/internal/observability"
+	"github.com/jamespolk/sawmill/internal/observability"
 )
 
 // byteOrder is the explicit encoding for every on-disk integer in a segment

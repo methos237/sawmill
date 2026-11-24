@@ -371,7 +371,7 @@ const file_logagg_v1_cluster_proto_rawDesc = "" +
 	"\arecords\x18\x01 \x03(\v2\x11.logagg.v1.RecordR\arecords\x12(\n" +
 	"\x06points\x18\x02 \x03(\v2\x10.logagg.v1.PointR\x06points2O\n" +
 	"\vPeerService\x12@\n" +
-	"\aExecute\x12\x19.logagg.v1.ExecuteRequest\x1a\x1a.logagg.v1.ExecuteResponseBEZCgithub.com/jamespolk/go-log-aggregator/api/proto/logagg/v1;logaggv1b\x06proto3"
+	"\aExecute\x12\x19.logagg.v1.ExecuteRequest\x1a\x1a.logagg.v1.ExecuteResponseB;Z9github.com/jamespolk/sawmill/api/proto/logagg/v1;logaggv1b\x06proto3"
 
 var (
 	file_logagg_v1_cluster_proto_rawDescOnce sync.Once

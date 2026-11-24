@@ -13,7 +13,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/jamespolk/go-log-aggregator/internal/queue"
+	"github.com/jamespolk/sawmill/internal/queue"
 )
 
 // Publisher records everything published to it.

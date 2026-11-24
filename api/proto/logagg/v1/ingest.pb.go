@@ -545,7 +545,7 @@ const file_logagg_v1_ingest_proto_rawDesc = "" +
 	"\x11ACK_CODE_INTERNAL\x10\x042?\n" +
 	"\n" +
 	"LogService\x121\n" +
-	"\x06Stream\x12\x13.logagg.v1.LogBatch\x1a\x0e.logagg.v1.Ack(\x010\x01BEZCgithub.com/jamespolk/go-log-aggregator/api/proto/logagg/v1;logaggv1b\x06proto3"
+	"\x06Stream\x12\x13.logagg.v1.LogBatch\x1a\x0e.logagg.v1.Ack(\x010\x01B;Z9github.com/jamespolk/sawmill/api/proto/logagg/v1;logaggv1b\x06proto3"
 
 var (
 	file_logagg_v1_ingest_proto_rawDescOnce sync.Once

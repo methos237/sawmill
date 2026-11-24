@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	logaggv1 "github.com/jamespolk/go-log-aggregator/api/proto/logagg/v1"
+	logaggv1 "github.com/jamespolk/sawmill/api/proto/logagg/v1"
 )
 
 // Shedding is the backpressure chain working as designed, so it must not make the run

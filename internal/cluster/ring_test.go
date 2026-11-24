@@ -10,7 +10,7 @@ import (
 	"github.com/cespare/xxhash/v2"
 	"pgregory.net/rapid"
 
-	"github.com/jamespolk/go-log-aggregator/internal/model"
+	"github.com/jamespolk/sawmill/internal/model"
 )
 
 func nodeNames(n int) []string {

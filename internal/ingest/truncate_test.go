@@ -7,7 +7,7 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	logaggv1 "github.com/jamespolk/go-log-aggregator/api/proto/logagg/v1"
+	logaggv1 "github.com/jamespolk/sawmill/api/proto/logagg/v1"
 )
 
 // A detail cut mid-rune is invalid UTF-8, which a proto3 string field rejects at
