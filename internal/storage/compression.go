@@ -8,7 +8,7 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/jamespolk/sawmill/internal/observability"
+	"github.com/methos237/sawmill/internal/observability"
 )
 
 // compressionStatsSQL reads the logs hypertable's columnstore totals. The

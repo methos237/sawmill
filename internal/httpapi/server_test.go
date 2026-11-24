@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jamespolk/sawmill/internal/config"
-	"github.com/jamespolk/sawmill/internal/observability"
+	"github.com/methos237/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/observability"
 )
 
 func newTestServer(t *testing.T, health *observability.Health, w io.Writer) *Server {

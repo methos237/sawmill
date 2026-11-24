@@ -11,10 +11,10 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
-	"github.com/jamespolk/sawmill/internal/config"
-	"github.com/jamespolk/sawmill/internal/ingest"
-	"github.com/jamespolk/sawmill/internal/queue"
-	"github.com/jamespolk/sawmill/internal/storage"
+	"github.com/methos237/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/ingest"
+	"github.com/methos237/sawmill/internal/queue"
+	"github.com/methos237/sawmill/internal/storage"
 )
 
 // collector is the same set of components cmd/collector wires, assembled in process.

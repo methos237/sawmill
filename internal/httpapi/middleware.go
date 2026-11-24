@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jamespolk/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/config"
 )
 
 type middleware func(http.Handler) http.Handler

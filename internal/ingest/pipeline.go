@@ -12,9 +12,9 @@ import (
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/jamespolk/sawmill/internal/config"
-	"github.com/jamespolk/sawmill/internal/observability"
-	"github.com/jamespolk/sawmill/internal/queue"
+	"github.com/methos237/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/observability"
+	"github.com/methos237/sawmill/internal/queue"
 )
 
 // Pipeline errors.

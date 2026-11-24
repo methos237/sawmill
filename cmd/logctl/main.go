@@ -23,10 +23,10 @@ import (
 	"syscall"
 	"time"
 
-	logaggv1 "github.com/jamespolk/sawmill/api/proto/logagg/v1"
-	"github.com/jamespolk/sawmill/internal/ingest"
-	"github.com/jamespolk/sawmill/internal/model"
-	"github.com/jamespolk/sawmill/internal/version"
+	logaggv1 "github.com/methos237/sawmill/api/proto/logagg/v1"
+	"github.com/methos237/sawmill/internal/ingest"
+	"github.com/methos237/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/version"
 )
 
 // usageError marks an error the operator caused by how the command was invoked,

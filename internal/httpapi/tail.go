@@ -11,9 +11,9 @@ import (
 
 	"github.com/coder/websocket"
 
-	"github.com/jamespolk/sawmill/internal/model"
-	"github.com/jamespolk/sawmill/internal/query"
-	"github.com/jamespolk/sawmill/internal/tail"
+	"github.com/methos237/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/query"
+	"github.com/methos237/sawmill/internal/tail"
 )
 
 // tailAPI serves GET /v1/tail?query=...: a WebSocket that streams each record

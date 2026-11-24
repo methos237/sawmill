@@ -11,8 +11,8 @@ import (
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
 	semconv "go.opentelemetry.io/otel/semconv/v1.43.0"
 
-	"github.com/jamespolk/sawmill/internal/config"
-	"github.com/jamespolk/sawmill/internal/version"
+	"github.com/methos237/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/version"
 )
 
 // NewTracer installs the process-wide tracer provider and propagator and

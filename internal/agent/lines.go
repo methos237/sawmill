@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"errors"
 
-	"github.com/jamespolk/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/model"
 )
 
 // lineBufCap is the initial capacity of a lineAssembler's reused buffer. It is

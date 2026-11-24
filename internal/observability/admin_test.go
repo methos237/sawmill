@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/jamespolk/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/config"
 )
 
 func testLogger() *slog.Logger {

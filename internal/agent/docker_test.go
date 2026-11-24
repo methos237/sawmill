@@ -16,7 +16,7 @@ import (
 	"github.com/moby/moby/api/pkg/stdcopy"
 	"github.com/moby/moby/client"
 
-	"github.com/jamespolk/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/model"
 )
 
 // fakeLogsResponse scripts one ContainerLogs call's result.

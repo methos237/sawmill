@@ -8,7 +8,7 @@ import (
 
 	"github.com/jackc/pgx/v5"
 
-	"github.com/jamespolk/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/model"
 )
 
 // upsertStreamsSQL writes a set of streams in one statement.

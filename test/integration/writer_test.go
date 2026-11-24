@@ -17,9 +17,9 @@ import (
 	dto "github.com/prometheus/client_model/go"
 	"github.com/stretchr/testify/require"
 
-	"github.com/jamespolk/sawmill/internal/config"
-	"github.com/jamespolk/sawmill/internal/model"
-	"github.com/jamespolk/sawmill/internal/storage"
+	"github.com/methos237/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/storage"
 )
 
 // defaultThroughputRecords is the phase 1 exit criterion. Overridable so a laptop

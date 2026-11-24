@@ -17,11 +17,11 @@ import (
 	"github.com/prometheus/client_golang/prometheus/testutil"
 	"github.com/stretchr/testify/require"
 
-	logaggv1 "github.com/jamespolk/sawmill/api/proto/logagg/v1"
-	"github.com/jamespolk/sawmill/internal/config"
-	"github.com/jamespolk/sawmill/internal/httpapi"
-	"github.com/jamespolk/sawmill/internal/observability"
-	"github.com/jamespolk/sawmill/internal/tail"
+	logaggv1 "github.com/methos237/sawmill/api/proto/logagg/v1"
+	"github.com/methos237/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/httpapi"
+	"github.com/methos237/sawmill/internal/observability"
+	"github.com/methos237/sawmill/internal/tail"
 )
 
 // tailServer is the public API of a collector, mounted on an httptest server so

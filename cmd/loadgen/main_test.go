@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	logaggv1 "github.com/jamespolk/sawmill/api/proto/logagg/v1"
-	"github.com/jamespolk/sawmill/internal/model"
+	logaggv1 "github.com/methos237/sawmill/api/proto/logagg/v1"
+	"github.com/methos237/sawmill/internal/model"
 )
 
 func testOptions() options {

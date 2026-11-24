@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jamespolk/sawmill/internal/config"
-	"github.com/jamespolk/sawmill/internal/observability"
-	"github.com/jamespolk/sawmill/internal/query"
+	"github.com/methos237/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/observability"
+	"github.com/methos237/sawmill/internal/query"
 )
 
 // newQueryServer has no database: every case here must be answered before the

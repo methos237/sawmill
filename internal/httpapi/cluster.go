@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/jamespolk/sawmill/internal/cluster"
+	"github.com/methos237/sawmill/internal/cluster"
 )
 
 // ClusterView is what /v1/cluster reads. *cluster.Cluster satisfies it; nil

@@ -13,10 +13,10 @@ import (
 
 	"github.com/hashicorp/memberlist"
 
-	"github.com/jamespolk/sawmill/internal/backoff"
-	"github.com/jamespolk/sawmill/internal/config"
-	"github.com/jamespolk/sawmill/internal/model"
-	"github.com/jamespolk/sawmill/internal/version"
+	"github.com/methos237/sawmill/internal/backoff"
+	"github.com/methos237/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/version"
 )
 
 // Member is one collector as the cluster sees it: where to reach it and what

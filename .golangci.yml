@@ -95,4 +95,4 @@ formatters:
   settings:
     goimports:
       local-prefixes:
-        - github.com/jamespolk/sawmill
+        - github.com/methos237/sawmill

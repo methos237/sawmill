@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jamespolk/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/model"
 )
 
 // This file is the SQL-injection surface of the project, so it follows two

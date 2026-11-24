@@ -12,12 +12,12 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"google.golang.org/protobuf/proto"
 
-	logaggv1 "github.com/jamespolk/sawmill/api/proto/logagg/v1"
-	"github.com/jamespolk/sawmill/internal/config"
-	"github.com/jamespolk/sawmill/internal/model"
-	"github.com/jamespolk/sawmill/internal/observability"
-	"github.com/jamespolk/sawmill/internal/queue"
-	"github.com/jamespolk/sawmill/internal/queue/queuetest"
+	logaggv1 "github.com/methos237/sawmill/api/proto/logagg/v1"
+	"github.com/methos237/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/observability"
+	"github.com/methos237/sawmill/internal/queue"
+	"github.com/methos237/sawmill/internal/queue/queuetest"
 )
 
 // validBatch builds a batch of n records that pass validation.

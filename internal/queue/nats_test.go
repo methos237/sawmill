@@ -9,7 +9,7 @@ import (
 	"github.com/nats-io/nats.go"
 	"github.com/nats-io/nats.go/jetstream"
 
-	"github.com/jamespolk/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/config"
 )
 
 func testQueueConfig() config.Queue {

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jamespolk/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/model"
 )
 
 // MaxRegexLen bounds any regular expression literal (matcher, line filter,

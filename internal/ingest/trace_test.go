@@ -9,8 +9,8 @@ import (
 	"go.opentelemetry.io/otel/propagation"
 	"go.opentelemetry.io/otel/trace"
 
-	logaggv1 "github.com/jamespolk/sawmill/api/proto/logagg/v1"
-	"github.com/jamespolk/sawmill/internal/queue/queuetest"
+	logaggv1 "github.com/methos237/sawmill/api/proto/logagg/v1"
+	"github.com/methos237/sawmill/internal/queue/queuetest"
 )
 
 // The agent's trace must reach the publish: the batch carries it in, the

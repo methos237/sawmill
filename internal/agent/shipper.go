@@ -17,11 +17,11 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	"google.golang.org/protobuf/proto"
 
-	logaggv1 "github.com/jamespolk/sawmill/api/proto/logagg/v1"
-	"github.com/jamespolk/sawmill/internal/backoff"
-	"github.com/jamespolk/sawmill/internal/ingest"
-	"github.com/jamespolk/sawmill/internal/model"
-	"github.com/jamespolk/sawmill/internal/observability"
+	logaggv1 "github.com/methos237/sawmill/api/proto/logagg/v1"
+	"github.com/methos237/sawmill/internal/backoff"
+	"github.com/methos237/sawmill/internal/ingest"
+	"github.com/methos237/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/observability"
 )
 
 // Defaults applied by NewShipper for every zero-valued ShipperConfig field.
@@ -133,7 +133,7 @@ type accumulator struct {
 }
 
 // outstanding is one batch sent but not yet acknowledged.
-var tracer = otel.Tracer("github.com/jamespolk/sawmill/internal/agent")
+var tracer = otel.Tracer("github.com/methos237/sawmill/internal/agent")
 
 type outstanding struct {
 	batch         *logaggv1.LogBatch

@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jamespolk/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/model"
 )
 
 // mustJoiner builds a Joiner or fails the test immediately.

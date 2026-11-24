@@ -4,7 +4,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
-	"github.com/jamespolk/sawmill/internal/observability"
+	"github.com/methos237/sawmill/internal/observability"
 )
 
 // Drop and retry reasons. These are metric label values, so they are a closed set

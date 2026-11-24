@@ -9,9 +9,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/jamespolk/sawmill/internal/model"
-	"github.com/jamespolk/sawmill/internal/query"
-	"github.com/jamespolk/sawmill/internal/query/executor"
+	"github.com/methos237/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/query"
+	"github.com/methos237/sawmill/internal/query/executor"
 )
 
 // Request-side caps. The body cap bounds the JSON decode; the query cap bounds

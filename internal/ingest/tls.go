@@ -5,8 +5,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/jamespolk/sawmill/internal/config"
-	"github.com/jamespolk/sawmill/internal/tlsx"
+	"github.com/methos237/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/tlsx"
 )
 
 // ErrNoClientCA is returned when server TLS is configured without a client CA.

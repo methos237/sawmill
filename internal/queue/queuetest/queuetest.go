@@ -13,7 +13,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/jamespolk/sawmill/internal/queue"
+	"github.com/methos237/sawmill/internal/queue"
 )
 
 // Publisher records everything published to it.

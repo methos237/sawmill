@@ -20,12 +20,12 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 	"github.com/stretchr/testify/require"
 
-	"github.com/jamespolk/sawmill/internal/config"
-	"github.com/jamespolk/sawmill/internal/httpapi"
-	"github.com/jamespolk/sawmill/internal/model"
-	"github.com/jamespolk/sawmill/internal/observability"
-	"github.com/jamespolk/sawmill/internal/query"
-	"github.com/jamespolk/sawmill/internal/query/executor"
+	"github.com/methos237/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/httpapi"
+	"github.com/methos237/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/observability"
+	"github.com/methos237/sawmill/internal/query"
+	"github.com/methos237/sawmill/internal/query/executor"
 )
 
 // The unit tests pin the planner's SQL text; this file proves that text is

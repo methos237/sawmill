@@ -24,17 +24,17 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/jamespolk/sawmill/internal/cluster"
-	"github.com/jamespolk/sawmill/internal/config"
-	"github.com/jamespolk/sawmill/internal/httpapi"
-	"github.com/jamespolk/sawmill/internal/ingest"
-	"github.com/jamespolk/sawmill/internal/model"
-	"github.com/jamespolk/sawmill/internal/observability"
-	"github.com/jamespolk/sawmill/internal/query/executor"
-	"github.com/jamespolk/sawmill/internal/queue"
-	"github.com/jamespolk/sawmill/internal/storage"
-	"github.com/jamespolk/sawmill/internal/tail"
-	"github.com/jamespolk/sawmill/internal/version"
+	"github.com/methos237/sawmill/internal/cluster"
+	"github.com/methos237/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/httpapi"
+	"github.com/methos237/sawmill/internal/ingest"
+	"github.com/methos237/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/observability"
+	"github.com/methos237/sawmill/internal/query/executor"
+	"github.com/methos237/sawmill/internal/queue"
+	"github.com/methos237/sawmill/internal/storage"
+	"github.com/methos237/sawmill/internal/tail"
+	"github.com/methos237/sawmill/internal/version"
 )
 
 func main() {

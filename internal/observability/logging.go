@@ -4,8 +4,8 @@ import (
 	"io"
 	"log/slog"
 
-	"github.com/jamespolk/sawmill/internal/config"
-	"github.com/jamespolk/sawmill/internal/version"
+	"github.com/methos237/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/version"
 )
 
 // NewLogger builds the process logger. Every line carries the node name and

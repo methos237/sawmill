@@ -13,8 +13,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	logaggv1 "github.com/jamespolk/sawmill/api/proto/logagg/v1"
-	"github.com/jamespolk/sawmill/internal/ingest"
+	logaggv1 "github.com/methos237/sawmill/api/proto/logagg/v1"
+	"github.com/methos237/sawmill/internal/ingest"
 )
 
 // batchOf builds a batch of n records for one stream, numbered from firstSeq.

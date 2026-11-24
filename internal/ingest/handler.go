@@ -18,10 +18,10 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/proto"
 
-	logaggv1 "github.com/jamespolk/sawmill/api/proto/logagg/v1"
-	"github.com/jamespolk/sawmill/internal/model"
-	"github.com/jamespolk/sawmill/internal/observability"
-	"github.com/jamespolk/sawmill/internal/queue"
+	logaggv1 "github.com/methos237/sawmill/api/proto/logagg/v1"
+	"github.com/methos237/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/observability"
+	"github.com/methos237/sawmill/internal/queue"
 )
 
 // MaxAckDetailLen bounds the human-readable detail returned to an agent. The
@@ -33,7 +33,7 @@ const MaxAckDetailLen = 512
 // ackCodeNames are the metric label values for the codes this service returns.
 var ackCodeNames = []string{"accepted", "overloaded", "invalid", "internal"}
 
-var tracer = otel.Tracer("github.com/jamespolk/sawmill/internal/ingest")
+var tracer = otel.Tracer("github.com/methos237/sawmill/internal/ingest")
 
 // Stream is the bidirectional ingest RPC.
 //

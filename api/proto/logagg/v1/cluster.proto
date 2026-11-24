@@ -13,7 +13,7 @@ package logagg.v1;
 
 import "logagg/v1/ingest.proto";
 
-option go_package = "github.com/jamespolk/sawmill/api/proto/logagg/v1;logaggv1";
+option go_package = "github.com/methos237/sawmill/api/proto/logagg/v1;logaggv1";
 
 // ExecuteRequest asks a peer to answer one shard of a query.
 message ExecuteRequest {

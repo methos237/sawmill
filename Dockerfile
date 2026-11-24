@@ -31,9 +31,9 @@ RUN --mount=type=cache,target=/go/pkg/mod \
     CGO_ENABLED=0 GOOS=${TARGETOS:-linux} GOARCH=${TARGETARCH} \
     go build -trimpath \
       -ldflags "-s -w \
-        -X github.com/jamespolk/sawmill/internal/version.Version=${VERSION} \
-        -X github.com/jamespolk/sawmill/internal/version.Commit=${COMMIT} \
-        -X github.com/jamespolk/sawmill/internal/version.BuildDate=${BUILD_DATE}" \
+        -X github.com/methos237/sawmill/internal/version.Version=${VERSION} \
+        -X github.com/methos237/sawmill/internal/version.Commit=${COMMIT} \
+        -X github.com/methos237/sawmill/internal/version.BuildDate=${BUILD_DATE}" \
       -o /out/app ./cmd/${BIN}
 
 # An empty state directory, staged here only so the runtime stage can COPY it with

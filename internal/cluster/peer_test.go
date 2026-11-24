@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jamespolk/sawmill/internal/model"
-	"github.com/jamespolk/sawmill/internal/query/executor"
+	"github.com/methos237/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/query/executor"
 )
 
 func TestRowsRoundTrip(t *testing.T) {

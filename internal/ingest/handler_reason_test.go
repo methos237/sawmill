@@ -10,9 +10,9 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/jamespolk/sawmill/internal/observability"
-	"github.com/jamespolk/sawmill/internal/queue"
-	"github.com/jamespolk/sawmill/internal/queue/queuetest"
+	"github.com/methos237/sawmill/internal/observability"
+	"github.com/methos237/sawmill/internal/queue"
+	"github.com/methos237/sawmill/internal/queue/queuetest"
 )
 
 // The drop reason is how an operator tells "the broker is slow" from "the agent went

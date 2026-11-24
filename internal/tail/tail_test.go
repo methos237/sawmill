@@ -6,11 +6,11 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	logaggv1 "github.com/jamespolk/sawmill/api/proto/logagg/v1"
-	"github.com/jamespolk/sawmill/internal/model"
-	"github.com/jamespolk/sawmill/internal/query"
-	"github.com/jamespolk/sawmill/internal/queue"
-	"github.com/jamespolk/sawmill/internal/queue/queuetest"
+	logaggv1 "github.com/methos237/sawmill/api/proto/logagg/v1"
+	"github.com/methos237/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/query"
+	"github.com/methos237/sawmill/internal/queue"
+	"github.com/methos237/sawmill/internal/queue/queuetest"
 )
 
 func batch(t *testing.T, ls model.LabelSet, msgs ...string) (subject string, payload []byte) {
