@@ -45,7 +45,7 @@ jobs:
 
       - uses: golangci/golangci-lint-action@v9
         with:
-          version: v2.13.2
+          version: v2.15.0
 
       # The integration suite is behind a build tag, so the linters above skip it
       # entirely unless it is asked for explicitly.
