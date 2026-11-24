@@ -29,9 +29,9 @@ import (
 	"syscall"
 	"time"
 
-	logaggv1 "github.com/jamespolk/go-log-aggregator/api/proto/logagg/v1"
-	"github.com/jamespolk/go-log-aggregator/internal/ingest"
-	"github.com/jamespolk/go-log-aggregator/internal/version"
+	logaggv1 "github.com/methos237/sawmill/api/proto/logagg/v1"
+	"github.com/methos237/sawmill/internal/ingest"
+	"github.com/methos237/sawmill/internal/version"
 )
 
 func main() {

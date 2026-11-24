@@ -4,7 +4,7 @@ import (
 	"maps"
 	"time"
 
-	logaggv1 "github.com/jamespolk/go-log-aggregator/api/proto/logagg/v1"
+	logaggv1 "github.com/methos237/sawmill/api/proto/logagg/v1"
 )
 
 // Conversions between the protobuf wire types and the model.

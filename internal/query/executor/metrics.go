@@ -6,8 +6,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
-	"github.com/jamespolk/go-log-aggregator/internal/observability"
-	"github.com/jamespolk/go-log-aggregator/internal/query"
+	"github.com/methos237/sawmill/internal/observability"
+	"github.com/methos237/sawmill/internal/query"
 )
 
 const querySubsystem = "query"

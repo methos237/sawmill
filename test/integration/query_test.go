@@ -20,12 +20,12 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 	"github.com/stretchr/testify/require"
 
-	"github.com/jamespolk/go-log-aggregator/internal/config"
-	"github.com/jamespolk/go-log-aggregator/internal/httpapi"
-	"github.com/jamespolk/go-log-aggregator/internal/model"
-	"github.com/jamespolk/go-log-aggregator/internal/observability"
-	"github.com/jamespolk/go-log-aggregator/internal/query"
-	"github.com/jamespolk/go-log-aggregator/internal/query/executor"
+	"github.com/methos237/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/httpapi"
+	"github.com/methos237/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/observability"
+	"github.com/methos237/sawmill/internal/query"
+	"github.com/methos237/sawmill/internal/query/executor"
 )
 
 // The unit tests pin the planner's SQL text; this file proves that text is

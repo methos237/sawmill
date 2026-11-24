@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/jamespolk/go-log-aggregator/internal/config"
+	"github.com/methos237/sawmill/internal/config"
 )
 
 // probeSelf requests /readyz on this process's own public listener.

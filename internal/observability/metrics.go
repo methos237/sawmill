@@ -6,7 +6,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/collectors"
 
-	"github.com/jamespolk/go-log-aggregator/internal/version"
+	"github.com/methos237/sawmill/internal/version"
 )
 
 // Namespace prefixes every metric this project defines.

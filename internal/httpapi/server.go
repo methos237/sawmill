@@ -11,10 +11,10 @@ import (
 	"log/slog"
 	"net/http"
 
-	"github.com/jamespolk/go-log-aggregator/internal/config"
-	"github.com/jamespolk/go-log-aggregator/internal/observability"
-	"github.com/jamespolk/go-log-aggregator/internal/query/executor"
-	"github.com/jamespolk/go-log-aggregator/internal/tail"
+	"github.com/methos237/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/observability"
+	"github.com/methos237/sawmill/internal/query/executor"
+	"github.com/methos237/sawmill/internal/tail"
 )
 
 // Server is the public API listener.

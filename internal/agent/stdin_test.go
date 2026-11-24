@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jamespolk/go-log-aggregator/internal/model"
+	"github.com/methos237/sawmill/internal/model"
 )
 
 func TestStdinSource_Name(t *testing.T) {

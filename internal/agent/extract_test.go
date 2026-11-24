@@ -9,8 +9,8 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/jamespolk/go-log-aggregator/internal/model"
-	"github.com/jamespolk/go-log-aggregator/internal/observability"
+	"github.com/methos237/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/observability"
 )
 
 // mustExtractor builds an Extractor or fails the test immediately.

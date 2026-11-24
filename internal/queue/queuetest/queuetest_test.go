@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/jamespolk/go-log-aggregator/internal/queue"
+	"github.com/methos237/sawmill/internal/queue"
 )
 
 func TestPublisherRecordsMessages(t *testing.T) {

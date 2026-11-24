@@ -1,4 +1,4 @@
-module github.com/jamespolk/go-log-aggregator
+module github.com/methos237/sawmill
 
 go 1.27.1
 

@@ -15,10 +15,10 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/proto"
 
-	logaggv1 "github.com/jamespolk/go-log-aggregator/api/proto/logagg/v1"
-	"github.com/jamespolk/go-log-aggregator/internal/ingest"
-	"github.com/jamespolk/go-log-aggregator/internal/model"
-	"github.com/jamespolk/go-log-aggregator/internal/observability"
+	logaggv1 "github.com/methos237/sawmill/api/proto/logagg/v1"
+	"github.com/methos237/sawmill/internal/ingest"
+	"github.com/methos237/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/observability"
 )
 
 // These tests deliberately do not mock ingest.Client: they stand up a real

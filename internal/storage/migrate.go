@@ -15,7 +15,7 @@ import (
 	// pgxpool is not usable here: golang-migrate's API is defined over *sql.DB.
 	_ "github.com/jackc/pgx/v5/stdlib"
 
-	"github.com/jamespolk/go-log-aggregator/migrations"
+	"github.com/methos237/sawmill/migrations"
 )
 
 // Migrate applies every pending migration.

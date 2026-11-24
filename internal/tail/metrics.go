@@ -4,7 +4,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
-	"github.com/jamespolk/go-log-aggregator/internal/observability"
+	"github.com/methos237/sawmill/internal/observability"
 )
 
 const tailSubsystem = "tail"

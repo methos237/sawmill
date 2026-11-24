@@ -11,8 +11,8 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/credentials/insecure"
 
-	logaggv1 "github.com/jamespolk/go-log-aggregator/api/proto/logagg/v1"
-	"github.com/jamespolk/go-log-aggregator/internal/tlsx"
+	logaggv1 "github.com/methos237/sawmill/api/proto/logagg/v1"
+	"github.com/methos237/sawmill/internal/tlsx"
 )
 
 // The client lives in this package, next to the server, because both speak the same

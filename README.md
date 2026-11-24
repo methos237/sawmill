@@ -1,6 +1,6 @@
-# Log Aggregator
+# Sawmill
 
-[![CI](https://github.com/methos237/go-log-aggregator/actions/workflows/ci.yml/badge.svg)](https://github.com/methos237/go-log-aggregator/actions/workflows/ci.yml)
+[![CI](https://github.com/methos237/sawmill/actions/workflows/ci.yml/badge.svg)](https://github.com/methos237/sawmill/actions/workflows/ci.yml)
 
 A distributed log aggregator built with Go, NATS JetStream and TimescaleDB.
 

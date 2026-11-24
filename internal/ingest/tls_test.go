@@ -22,9 +22,9 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/credentials/insecure"
 
-	logaggv1 "github.com/jamespolk/go-log-aggregator/api/proto/logagg/v1"
-	"github.com/jamespolk/go-log-aggregator/internal/config"
-	"github.com/jamespolk/go-log-aggregator/internal/queue/queuetest"
+	logaggv1 "github.com/methos237/sawmill/api/proto/logagg/v1"
+	"github.com/methos237/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/queue/queuetest"
 )
 
 // certAuthority is a throwaway CA for one test.

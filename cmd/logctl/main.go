@@ -23,10 +23,10 @@ import (
 	"syscall"
 	"time"
 
-	logaggv1 "github.com/jamespolk/go-log-aggregator/api/proto/logagg/v1"
-	"github.com/jamespolk/go-log-aggregator/internal/ingest"
-	"github.com/jamespolk/go-log-aggregator/internal/model"
-	"github.com/jamespolk/go-log-aggregator/internal/version"
+	logaggv1 "github.com/methos237/sawmill/api/proto/logagg/v1"
+	"github.com/methos237/sawmill/internal/ingest"
+	"github.com/methos237/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/version"
 )
 
 // usageError marks an error the operator caused by how the command was invoked,
@@ -76,7 +76,7 @@ func parseFlags(fs *flag.FlagSet, args []string) (helped bool, err error) {
 // usage writes the top-level help. It goes to stdout when the operator asked
 // for it and to stderr when it accompanies an error.
 func usage(w io.Writer) {
-	_, _ = fmt.Fprint(w, `logctl controls a go-log-aggregator cluster.
+	_, _ = fmt.Fprint(w, `logctl controls a sawmill cluster.
 
 usage: logctl <command> [flags]
 

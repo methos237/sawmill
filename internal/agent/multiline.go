@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/jamespolk/go-log-aggregator/internal/model"
+	"github.com/methos237/sawmill/internal/model"
 )
 
 const (

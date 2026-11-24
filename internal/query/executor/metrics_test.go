@@ -9,8 +9,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/testutil"
 
-	"github.com/jamespolk/go-log-aggregator/internal/model"
-	"github.com/jamespolk/go-log-aggregator/internal/query"
+	"github.com/methos237/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/query"
 )
 
 type stubRunner struct {

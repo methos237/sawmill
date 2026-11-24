@@ -24,17 +24,17 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/jamespolk/go-log-aggregator/internal/cluster"
-	"github.com/jamespolk/go-log-aggregator/internal/config"
-	"github.com/jamespolk/go-log-aggregator/internal/httpapi"
-	"github.com/jamespolk/go-log-aggregator/internal/ingest"
-	"github.com/jamespolk/go-log-aggregator/internal/model"
-	"github.com/jamespolk/go-log-aggregator/internal/observability"
-	"github.com/jamespolk/go-log-aggregator/internal/query/executor"
-	"github.com/jamespolk/go-log-aggregator/internal/queue"
-	"github.com/jamespolk/go-log-aggregator/internal/storage"
-	"github.com/jamespolk/go-log-aggregator/internal/tail"
-	"github.com/jamespolk/go-log-aggregator/internal/version"
+	"github.com/methos237/sawmill/internal/cluster"
+	"github.com/methos237/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/httpapi"
+	"github.com/methos237/sawmill/internal/ingest"
+	"github.com/methos237/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/observability"
+	"github.com/methos237/sawmill/internal/query/executor"
+	"github.com/methos237/sawmill/internal/queue"
+	"github.com/methos237/sawmill/internal/storage"
+	"github.com/methos237/sawmill/internal/tail"
+	"github.com/methos237/sawmill/internal/version"
 )
 
 func main() {

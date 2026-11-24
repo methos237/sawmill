@@ -1,4 +1,4 @@
-# go-log-aggregator
+# sawmill
 #
 # `make help` lists targets. `make dev` is the entry point for a fresh clone.
 
@@ -17,7 +17,7 @@ VERSION    ?= $(shell git describe --tags --always --dirty 2>/dev/null || echo d
 COMMIT     ?= $(shell git rev-parse --short HEAD 2>/dev/null || echo none)
 BUILD_DATE ?= $(shell date -u +%Y-%m-%dT%H:%M:%SZ)
 
-VERSION_PKG := github.com/jamespolk/go-log-aggregator/internal/version
+VERSION_PKG := github.com/methos237/sawmill/internal/version
 LDFLAGS     := -s -w \
 	-X $(VERSION_PKG).Version=$(VERSION) \
 	-X $(VERSION_PKG).Commit=$(COMMIT) \

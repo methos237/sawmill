@@ -6,7 +6,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	dto "github.com/prometheus/client_model/go"
 
-	"github.com/jamespolk/go-log-aggregator/internal/observability"
+	"github.com/methos237/sawmill/internal/observability"
 )
 
 // TestNewMetrics_NilRegistererDoesNotPanic pins the house convention every

@@ -12,8 +12,8 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/jamespolk/go-log-aggregator/internal/config"
-	"github.com/jamespolk/go-log-aggregator/internal/model"
+	"github.com/methos237/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/model"
 )
 
 // stubPool satisfies NewWriter's nil check for tests that never reach the database.

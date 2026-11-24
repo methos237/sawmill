@@ -28,12 +28,12 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/jamespolk/go-log-aggregator/internal/agent"
-	"github.com/jamespolk/go-log-aggregator/internal/config"
-	"github.com/jamespolk/go-log-aggregator/internal/ingest"
-	"github.com/jamespolk/go-log-aggregator/internal/model"
-	"github.com/jamespolk/go-log-aggregator/internal/observability"
-	"github.com/jamespolk/go-log-aggregator/internal/version"
+	"github.com/methos237/sawmill/internal/agent"
+	"github.com/methos237/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/ingest"
+	"github.com/methos237/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/observability"
+	"github.com/methos237/sawmill/internal/version"
 )
 
 func main() {

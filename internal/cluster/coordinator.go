@@ -11,9 +11,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jamespolk/go-log-aggregator/internal/model"
-	"github.com/jamespolk/go-log-aggregator/internal/query"
-	"github.com/jamespolk/go-log-aggregator/internal/query/executor"
+	"github.com/methos237/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/query"
+	"github.com/methos237/sawmill/internal/query/executor"
 )
 
 // Coordinator answers a query by fanning its logs statement out to the

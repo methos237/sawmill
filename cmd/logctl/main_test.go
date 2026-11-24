@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	logaggv1 "github.com/jamespolk/go-log-aggregator/api/proto/logagg/v1"
+	logaggv1 "github.com/methos237/sawmill/api/proto/logagg/v1"
 )
 
 // A typo in -level must be a message about the flag. Sending LEVEL_UNSPECIFIED

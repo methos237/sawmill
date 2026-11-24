@@ -8,7 +8,7 @@ import (
 	"go.opentelemetry.io/otel"
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
 
-	"github.com/jamespolk/go-log-aggregator/internal/config"
+	"github.com/methos237/sawmill/internal/config"
 )
 
 func TestNewTracerDisabledInstallsNoProvider(t *testing.T) {

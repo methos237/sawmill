@@ -7,8 +7,8 @@ import (
 	"regexp"
 	"unicode/utf8"
 
-	"github.com/jamespolk/go-log-aggregator/internal/model"
-	"github.com/jamespolk/go-log-aggregator/internal/observability"
+	"github.com/methos237/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/observability"
 )
 
 // ExtractConfig configures an Extractor.

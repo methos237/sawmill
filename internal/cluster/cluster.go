@@ -13,10 +13,10 @@ import (
 
 	"github.com/hashicorp/memberlist"
 
-	"github.com/jamespolk/go-log-aggregator/internal/backoff"
-	"github.com/jamespolk/go-log-aggregator/internal/config"
-	"github.com/jamespolk/go-log-aggregator/internal/model"
-	"github.com/jamespolk/go-log-aggregator/internal/version"
+	"github.com/methos237/sawmill/internal/backoff"
+	"github.com/methos237/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/version"
 )
 
 // Member is one collector as the cluster sees it: where to reach it and what

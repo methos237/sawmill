@@ -13,8 +13,8 @@ import (
 	"go.opentelemetry.io/otel/propagation"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/jamespolk/go-log-aggregator/internal/config"
-	"github.com/jamespolk/go-log-aggregator/internal/queue"
+	"github.com/methos237/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/queue"
 )
 
 // A full stream must classify as ErrOverloaded, which is what turns into

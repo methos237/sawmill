@@ -22,8 +22,8 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/jamespolk/go-log-aggregator/internal/config"
-	"github.com/jamespolk/go-log-aggregator/internal/observability"
+	"github.com/methos237/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/observability"
 )
 
 // Open builds a connection pool from configuration and verifies it can reach the

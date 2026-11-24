@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jamespolk/go-log-aggregator/internal/observability"
+	"github.com/methos237/sawmill/internal/observability"
 )
 
 // fixedPayload returns a 10-byte, index-distinguishable payload. Every test

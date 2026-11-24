@@ -19,10 +19,10 @@ import (
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/jamespolk/go-log-aggregator/internal/backoff"
-	"github.com/jamespolk/go-log-aggregator/internal/config"
-	"github.com/jamespolk/go-log-aggregator/internal/model"
-	"github.com/jamespolk/go-log-aggregator/internal/observability"
+	"github.com/methos237/sawmill/internal/backoff"
+	"github.com/methos237/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/observability"
 )
 
 // Writer errors.
@@ -73,7 +73,7 @@ FROM logs_staging
 ORDER BY stream_id, seq, time
 ON CONFLICT DO NOTHING`
 
-var tracer = otel.Tracer("github.com/jamespolk/go-log-aggregator/internal/storage")
+var tracer = otel.Tracer("github.com/methos237/sawmill/internal/storage")
 
 // Shipment is the unit the writer accepts: one stream's labels plus records for it.
 //

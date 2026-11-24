@@ -14,8 +14,8 @@ import (
 
 	"github.com/jackc/pgx/v5"
 
-	"github.com/jamespolk/go-log-aggregator/internal/model"
-	"github.com/jamespolk/go-log-aggregator/internal/query"
+	"github.com/methos237/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/query"
 )
 
 // Point is one bucket of one `by` group in an aggregation result.

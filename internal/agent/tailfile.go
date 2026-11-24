@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jamespolk/go-log-aggregator/internal/model"
-	"github.com/jamespolk/go-log-aggregator/internal/observability"
+	"github.com/methos237/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/observability"
 )
 
 // defaultPollInterval is how often the tail source checks a file for new data

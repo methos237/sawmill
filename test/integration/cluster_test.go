@@ -13,11 +13,11 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/jamespolk/go-log-aggregator/internal/cluster"
-	"github.com/jamespolk/go-log-aggregator/internal/config"
-	"github.com/jamespolk/go-log-aggregator/internal/model"
-	"github.com/jamespolk/go-log-aggregator/internal/query"
-	"github.com/jamespolk/go-log-aggregator/internal/query/executor"
+	"github.com/methos237/sawmill/internal/cluster"
+	"github.com/methos237/sawmill/internal/config"
+	"github.com/methos237/sawmill/internal/model"
+	"github.com/methos237/sawmill/internal/query"
+	"github.com/methos237/sawmill/internal/query/executor"
 )
 
 // TestPeerExecute runs a planned statement through the peer service over a
